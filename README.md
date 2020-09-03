@@ -1093,7 +1093,7 @@ Premium plans cost .99c for monthly and $9.99 for an entire year. The perks of s
 
 ## Design:
 
-<a name="original-wireframe"/>
+<a name="original-wireframe"></a>
 <details>
 <summary> <b> Original Wireframe (click to view):</b>
 </summary>
@@ -1148,7 +1148,7 @@ Premium plans cost .99c for monthly and $9.99 for an entire year. The perks of s
 
 </details>
 <br>
-<a name="extending-the-wireframe"/>
+<a name="extending-the-wireframe"></a>
 <details>
 <summary> <b>Extending the Wireframe (click to view):</b>
 
