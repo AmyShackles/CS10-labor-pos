@@ -82,8 +82,8 @@
   - [Stripe](#stripe)
   - [Free vs Premium](#free-vs-premium)
   - [Design](#design)
-    - Original Wireframe
-    - Extending the Wireframe
+    - [Original Wireframe](#original-wireframe)
+    - [Extending the Wireframe](#extending-the-wireframe)
     - [Styles and Theming](#styles-and-theming)
 
 ## Tech Stack
@@ -106,10 +106,7 @@ Deployed [here](https://bestpos.netlify.com/)
 
 Deployed [here](https://dashboard.heroku.com/apps/labs7-posserver)
 
-<a name="reasoning"/>
-<details>
-  <summary><b>Reasoning</b></summary>
-- React.js
+### Reasoning
 
   - We selected React as our frontend framework because we knew with the application we were planning on building, there were going to be a lot of reusable components all interacting with each other.
 
@@ -149,11 +146,8 @@ Deployed [here](https://dashboard.heroku.com/apps/labs7-posserver)
   - We chose Heroku for roughly the same reason we chose Netlify, with the addendum that we also wanted a deployment site that would interact well with a Postgres database.
 
 ---
-</details>
 
-<a name="security"/>
-<details>
-  <summary><b>Security</b></summary>
+## Security
 
 ### Authentication:
 
@@ -234,7 +228,6 @@ Form validation was done on this application through the use of Formik and yup. 
 
 - We are making use of X-Frame-Options middleware to prevent our site from being rendered inside of a frame.
 
-</details>
 
 ## Testing
 
@@ -339,6 +332,8 @@ If you would like to contribute to the project, please see our <a href=".github/
 Please read our <a href="CODE_OF_CONDUCT.md">Code of Conduct</a> before contributing!
 
 # Documentation
+
+## Database
 
 ### Models
 
@@ -690,6 +685,8 @@ const DELETE_USER = gql`
   }
 `;
 ```
+
+#### Client Mutations:
 
 #### On Client Model:
 
@@ -1096,6 +1093,7 @@ Premium plans cost .99c for monthly and $9.99 for an entire year. The perks of s
 
 ## Design:
 
+<a name="original-wireframe"/>
 <details>
 <summary> <b> Original Wireframe (click to view):</b>
 </summary>
@@ -1150,6 +1148,7 @@ Premium plans cost .99c for monthly and $9.99 for an entire year. The perks of s
 
 </details>
 <br>
+<a name="extending-the-wireframe"/>
 <details>
 <summary> <b>Extending the Wireframe (click to view):</b>
 
