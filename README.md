@@ -1,15 +1,16 @@
 <h1 align="center">CS10-Labor POS</h1>
-<div align="center"> <img src="client/public/racoonbowtie.svg" alt="Raccoon with a bowtie" title="License: Raccoon image created with free images from Stockio.com and mbtskoudsalg.com"/></div>
+<p align="center">
+  <img src="client/public/racoonbowtie.svg" alt="Raccoon with a bowtie" title="License: Raccoon image created with free images from Stockio.com and mbtskoudsalg.com" width="200" height="200" align="center"/>
+</p>
 
-<div align="center"><h2>Brought to you by:</h2>
+<h2 align="center">Brought to you by:</h2>
 
-<a href="https://github.com/wajnurfes">Zach Campbell</a>
+<p align="center"><a href="https://github.com/wajnurfes">Zach Campbell</a></p>
 
-<a href="https://github.com/nphillips78">Cole Phillips</a>
+<p align="center"><a href="https://github.com/nphillips78">Cole Phillips</a></p>
 
-<a href="https://github.com/AmyShackles">Amy Shackles</a>
+<p align="center"><a href="https://github.com/AmyShackles">Amy Shackles</a></p>
 
-</div>
 <br>
 <br>
 
@@ -26,23 +27,6 @@
   - [Backend Built Using](#backend-built-using)
   - [Reasoning](#reasoning)
 - [Security](#security)
-  - [Authentication](#authentication)
-  - [Authorization](#authorization)
-  - [Form Validation](#form-validation)
-  - [OWASP Top 10 Application Security Risks 2017](#owasp-top-10-application-security-risks-2017)
-    - [Injection](#injection)
-    - [Broken Authentication](#broken-authentication)
-    - [Sensitive Data Exposure](#sensitive-data-exposure)
-    - [XML External Entities](#xml-external-entities)
-    - [Broken Access Control](#broken-access-control)
-    - [Security Misconfiguration](#security-misconfiguration)
-    - [Cross-Site Scripting](#cross-site-scripting)
-    - [Insecure Deserialization](#insecure-deserialization)
-    - [Using Components with Known Vulnerabilities](#using-components-with-known-vulnerabilities)
-    - [Insufficient Logging and Monitoring](#insufficient-logging-and-monitoring)
-  - [Additional Security Threats](#additional-security-threats)
-    - [CSRF](#csrf)
-    - [Clickjacking](#clickjacking)
 - [Testing](#testing)
 - [Improving Performance](#improving-performance)
 - [Installation Instructions](#installation-instructions)
@@ -122,8 +106,9 @@ Deployed [here](https://bestpos.netlify.com/)
 
 Deployed [here](https://dashboard.heroku.com/apps/labs7-posserver)
 
-### Reasoning:
-
+<a name="reasoning"/>
+<details>
+  <summary><b>Reasoning</b></summary>
 - React.js
 
   - We selected React as our frontend framework because we knew with the application we were planning on building, there were going to be a lot of reusable components all interacting with each other.
@@ -164,8 +149,11 @@ Deployed [here](https://dashboard.heroku.com/apps/labs7-posserver)
   - We chose Heroku for roughly the same reason we chose Netlify, with the addendum that we also wanted a deployment site that would interact well with a Postgres database.
 
 ---
+</details>
 
-# Security
+<a name="security"/>
+<details>
+  <summary><b>Security</b></summary>
 
 ### Authentication:
 
@@ -245,6 +233,8 @@ Form validation was done on this application through the use of Formik and yup. 
 #### Clickjacking
 
 - We are making use of X-Frame-Options middleware to prevent our site from being rendered inside of a frame.
+
+</details>
 
 ## Testing
 
